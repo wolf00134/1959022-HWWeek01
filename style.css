@@ -1,0 +1,232 @@
+h1, h2, h3, h4, nav, ul li, button {
+  font-family: 'Langar', cursive;
+}
+p, ul li, * {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background: #c4c4c4;
+}
+.logo {
+    padding: 14px;
+}
+header > * {
+    flex-grow: 1;
+    padding: 10px;
+}
+body {
+  margin: 0;
+}
+.banner {
+    height: 35rem;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.quote {
+    width: 60%;
+    text-align: left;
+    color: white;
+    height: 100%;
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    align-items: center;
+}
+.quote h1 {
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.quote p {
+    margin-left: 40px;
+}
+.quote h2 {
+    margin-left: 40px;
+}
+nav ul {
+    display: inline-flex;
+    float: right;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 30px;
+}
+.logo {
+    padding: 14px;
+}
+
+nav ul li a:hover {
+    background: #19e372;
+    border-radius: 5px;
+    color: white;
+}
+.wrap-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 3rem;
+    max-width: 1200px;
+}
+.front-two {
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1%;
+}
+.gallery img {
+    object-fit: cover;
+    height: 15rem;
+    width: 100%;
+}
+footer {
+  background: black;
+  color: white;
+  padding: 50px 20px;
+  margin-top: 40px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+  height: 100%;
+}
+.row {
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+h1 {
+  font-size: 3.5rem;
+}
+p {
+  font-size: 1.2rem;
+}
+h4 {
+  font-size: 25px;
+}
+a {
+  font-size: 25px;
+}
+.wrap-content {
+  margin: 0 20px 20px;
+}
+
+.front {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.col-img {
+  height: 15rem;
+}
+button {
+  width: 100%;
+  height: 50px;
+  background: #00b7ff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px gray;
+  border: none;
+}
+
+.col2 h1 {
+  margin-top: 0;
+}
+.front-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 3px solid;
+}
+.row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+.skills {
+  height: 30rem;
+}
+.col-3 h3 {
+  text-align: center;
+}
+.col-img img {
+  width: 100%;
+}
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  style, title {
+    display: none!important;
+  }
+  * {
+    display: block!important;
+  }
+  nav ul {
+      display: inline-flex!important;
+      float: right;
+      list-style: none;
+  }
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+      padding: 5px 30px;
+      font-size: 1rem;
+  }
+
+.logo img {
+  width: 7rem;
+  object-fit: contain;
+}
+  header {
+      width: 100%;
+      height: 90px;
+      display: flex!important;
+      background: #c4c4c4;
+  }
+  .logo {
+      padding: 14px;
+  }
+  header > * {
+      flex-grow: 1;
+      padding: 10px;
+  }
+  .quote {
+    display: flex!important;
+    align-items: center
+  }
+  .row-3 {
+    display: grid!important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .skills {
+    height: 30rem;
+  }
+  .col-3 h3 {
+    text-align: center;
+  }
+}
